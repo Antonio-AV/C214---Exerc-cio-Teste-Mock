@@ -10,5 +10,15 @@ public class ProfessorConst {
                     "\"hda\": \"13:30\", \n " +
                     "\"periodo\": \"Integral\" }";
 
+    public static String INEXISTENTE =
+            "{ \"nome\": \"None\", \n " +
+                    "\"hda\": \"None\", \n " +
+                    "\"periodo\": \"None\" }";
+
+    public static String INCOMPLETO =
+            "{ \"nome\": \"Cláudio\", \n " +
+                    "\"hda\": \"15:30\", \n " +
+                    "\"periodo\": \"None\" }";
+
 
 }

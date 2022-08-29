@@ -5,6 +5,14 @@ public class MockProfessorService implements ProfessorService {
         if(id == 10){
             return ProfessorConst.CHRIS;
         }
-        return ProfessorConst.PADRAO;
+        else if(id == 11){
+            return ProfessorConst.INCOMPLETO;
+        }
+        else if(id < 10){
+            return ProfessorConst.PADRAO;
+        }
+        else {
+            return ProfessorConst.INEXISTENTE;
+        }
     }
 }
