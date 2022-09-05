@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/Antonio-AV/C214---Exercicio-Teste-Mock/actions/workflows/maven.yml/badge.svg)](https://github.com/Antonio-AV/C214---Exercicio-Teste-Mock/actions/workflows/maven.yml)
+
 # C214 - Exercicio Teste Mock
 Repositório para a entrega da lista 1 da matéria de C214 2022/2.
 
