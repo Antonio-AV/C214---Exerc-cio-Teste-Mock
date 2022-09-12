@@ -23,4 +23,10 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Teste com maven
-      run: mvn clean test
+      run: mvn clean test site
+
+    - name: Upload artefatos de teste
+      uses: actions/upload-artifact@v3
+      with:
+        name: relatorio-testes
+        path: C214---Exercicio-Teste-Mock/target/site/
